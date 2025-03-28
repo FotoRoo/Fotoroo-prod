@@ -38,7 +38,7 @@ const AboutUs = () => {
           data-aos-duration="900"
         >
           <h2 
-            className="text-4xl lg:text-[40px] xl:text-[50px] font-dhaks"
+            className="text-4xl md:text-xl lg:text-2xl xl:text-[50px] font-dhaks"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="700"
@@ -47,7 +47,7 @@ const AboutUs = () => {
             Memories.
           </h2>
           <p 
-            className="md:mt-7 my-3 lg:my-5 text-lg lg:text-xl xl:text-2xl font-rische"
+            className="md:mt-7 my-3 lg:my-5 text-lg md:text-sm lg:text-sm xl:text-2xl font-rische"
             data-aos="fade-up"
             data-aos-delay="400"
             data-aos-duration="800"
@@ -73,7 +73,7 @@ const AboutUs = () => {
           loop 
           muted 
           playsInline 
-          className="w-full max-w-3xl aspect-video object-contain md:max-h-[500px]"
+          className="w-full max-w-3xl aspect-video object-contain md:max-w-[400px] lg:max-w-[500px] xl:max-w-[600px]"
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="1100"
