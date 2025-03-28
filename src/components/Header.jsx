@@ -23,21 +23,21 @@ const Header = () => {
 
       <div>
         <Link to="/">
-          {/* <h2 className="w-52 h-11 md:text-4xl lg:text-5xl xl:text-6xl text-3xl flex items-center font-rig-solid">
+          <h2 className="w-52 h-11 lg:text-4xl xl:text-5xl text-3xl flex items-center font-rig-solid">
             FOTOROO
-          </h2> */}
-          <img
+          </h2>
+          {/* <img
             src={FotorooLogo} 
             alt="FOTOROO Logo"
             className="h-14 lg:h-18 xl:h-26 w-auto max-w-none"
-          />
+          /> */}
         </Link>
       </div>
 
 
       <div>
 
-        <div className="hidden md:flex items-center list-none gap-7 cursor-pointer text-sm lg:text-xl xl:text-2xl text-[#694223]">
+        <div className="hidden md:flex items-center list-none gap-7 cursor-pointer text-sm lg:text-lg xl:text-xl text-[#694223]">
           {menuItems.map((item, index) => (
             <li key={index}>
               <Link to={item.path}>{item.name}</Link>

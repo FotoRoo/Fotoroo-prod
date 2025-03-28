@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import ExploreBoots3 from "../Images/ExploreBoots3.mp4";
 import DSLR from "../Images/DSLR Booth/DSLR.png";
 import MirrorBooth1 from "../Images/Mirror Booth/MirrorBooth1.jpeg";
-import MagazineBooth1 from "../Images/Magazine Booth/MagazineBooth1.png";
+import MagazineBooth1 from "../Images/Magazine Booth/MagazineBooth1.jpg";
 
 const ExploreOurBooths = () => {
   const navigate = useNavigate();
@@ -57,13 +57,13 @@ const ExploreOurBooths = () => {
             />
           </div>
           <div 
-            className="lg:w-[26rem] w-full mr-10"
+            className="lg:w-[26rem] w-full ml-10"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-2xl"
+              className="lg:pb-7 py-5 text-3xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -106,7 +106,7 @@ const ExploreOurBooths = () => {
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-2xl"
+              className="lg:pb-7 py-5 text-3xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -174,13 +174,13 @@ const ExploreOurBooths = () => {
           </div>
 
           <div 
-            className="lg:w-[26rem] w-full lg:mr-10"
+            className="lg:w-[26rem] w-full ml-10"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-2xl"
+              className="lg:pb-7 py-5 text-3xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -222,7 +222,7 @@ const ExploreOurBooths = () => {
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-2xl"
+              className="lg:pb-7 py-5 text-3xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"

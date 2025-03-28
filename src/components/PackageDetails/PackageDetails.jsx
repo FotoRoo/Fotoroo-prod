@@ -342,14 +342,14 @@ const PackageDetails = () => {
                   >
                     {item.title}
                   </h2>
-                  <p 
+                  {/* <p 
                     className="font-rische text-lg lg:text-xl xl:text-2xl leading-5 text-textCol md:w-4/5 lg:w-3/5"
                     data-aos="fade-up"
                     data-aos-duration="600"
                     data-aos-delay="400"
                   >
                     {item.paragraph}
-                  </p>
+                  </p> */}
                 </div>
 
                 {/* Image with side animations */}
