@@ -6,6 +6,7 @@ import ExploreBoots3 from "../Images/ExploreBoots3.mp4";
 import DSLR from "../Images/DSLR Booth/DSLR.png";
 import MirrorBooth1 from "../Images/Mirror Booth/MirrorBooth1.jpeg";
 import MagazineBooth1 from "../Images/Magazine Booth/MagazineBooth1.jpg";
+import { disableInstantTransitions } from "framer-motion";
 
 const ExploreOurBooths = () => {
   const navigate = useNavigate();
@@ -57,7 +58,7 @@ const ExploreOurBooths = () => {
             />
           </div>
           <div 
-            className="lg:w-[26rem] w-full ml-10"
+            className="lg:w-[26rem] w-full md:ml-10"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
@@ -174,7 +175,7 @@ const ExploreOurBooths = () => {
           </div>
 
           <div 
-            className="lg:w-[26rem] w-full ml-10"
+            className="lg:w-[26rem] w-full md:ml-10"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
