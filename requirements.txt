@@ -1,0 +1,8 @@
+quart
+uvicorn == 0.34.0
+dotenv == 0.9.9
+# google-auth == 2.38.0
+# google-auth-oauthlib == 1.2.1
+# google-auth-httplib2 == 0.22.0
+requests == 2.32.3
+# google-api-python-client

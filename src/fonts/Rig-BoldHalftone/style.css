@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rig Solid';
+    src: local('Rig Solid Bold Halftone'), local('Rig-Solid-Bold-Halftone'),
+        url('Rig-BoldHalftone.woff2') format('woff2'),
+        url('Rig-BoldHalftone.woff') format('woff'),
+        url('Rig-BoldHalftone.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
