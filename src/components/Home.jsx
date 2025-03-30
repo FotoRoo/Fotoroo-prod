@@ -38,7 +38,7 @@ const Home = () => {
     <section className="flex flex-col">
       {/* Hero Video - Dramatic fade in */}
       <div 
-        className="home mt-10 -mx-3 md:-mx-7 w-screen relative" 
+        className="home mt-5 -mx-3 md:-mx-7 w-screen relative" 
         data-aos="fade-in" 
         data-aos-duration="1200"
         data-aos-delay="200"
