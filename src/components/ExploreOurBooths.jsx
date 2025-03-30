@@ -2,11 +2,11 @@ import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ExploreBoots3 from "../Images/ExploreBoots3.mp4";
+import Three60 from "../Images/three60.jpg";
 import DSLR from "../Images/DSLR Booth/DSLR.png";
 import MirrorBooth1 from "../Images/Mirror Booth/MirrorBooth1.jpeg";
 import MagazineBooth1 from "../Images/Magazine Booth/MagazineBooth1.jpg";
-import { disableInstantTransitions } from "framer-motion";
+// import { disableInstantTransitions } from "framer-motion";
 
 const ExploreOurBooths = () => {
   const navigate = useNavigate();
@@ -37,10 +37,10 @@ const ExploreOurBooths = () => {
           Explore our Booths
         </h1>
       </div>
-      <div className="font-rische">
+      <div className=" font-rische max-w-[1600px] mx-auto w-full">
         {/* Mirror Booth Section */}
         <div 
-          className="flex flex-col lg:flex-row my-10 lg:justify-evenly lg:items-center lg:mt-10"
+          className="flex flex-col lg:flex-row my-10 lg:justify-center lg:items-center lg:mt-10"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="100"
@@ -58,13 +58,13 @@ const ExploreOurBooths = () => {
             />
           </div>
           <div 
-            className="lg:w-[26rem] w-full md:ml-10"
+            className="lg:w-[26rem] w-full md:ml-10 lg:ml-20"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -94,20 +94,20 @@ const ExploreOurBooths = () => {
 
         {/* DSLR Booth Section */}
         <div 
-          className="flex lg:flex-row my-10 flex-col-reverse lg:justify-evenly lg:items-center lg:mt-10"
+          className="flex lg:flex-row my-10 flex-col-reverse lg:justify-center lg:items-center lg:mt-10"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="100"
           data-aos-anchor-placement="top-center"
         >
           <div 
-            className="lg:w-[26rem] w-full mr-10"
+            className="lg:w-[26rem] w-full mr-10 lg:mr-20"
             data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -148,7 +148,7 @@ const ExploreOurBooths = () => {
 
         {/* 360 Booth Section */}
         <div 
-          className="flex flex-col lg:flex-row my-10 lg:justify-evenly lg:items-center lg:mt-10"
+          className="flex flex-col lg:flex-row my-10 lg:justify-center lg:items-center lg:mt-10"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="100"
@@ -160,9 +160,9 @@ const ExploreOurBooths = () => {
             data-aos-duration="800"
             data-aos-delay="250"
           >
-            <video
+            {/* <video
               ref={videoRef}
-              src={ExploreBoots3}
+              src={Three60}
               className="md:w-[456px]"
               autoPlay
               muted
@@ -171,17 +171,23 @@ const ExploreOurBooths = () => {
               aria-label="360 Booth demonstration video"
             >
               Your browser does not support the video tag.
-            </video>
+            </video> */}
+            <img 
+              src={Three60} 
+              alt="DSLR Booth" 
+              className="md:w-[456px]" 
+              loading="lazy"
+            />
           </div>
 
           <div 
-            className="lg:w-[26rem] w-full md:ml-10"
+            className="lg:w-[26rem] w-full md:ml-10 lg:ml-20"
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -210,20 +216,20 @@ const ExploreOurBooths = () => {
 
         {/* Magazine Booth Section */}
         <div 
-          className="flex lg:flex-row my-10 flex-col-reverse lg:justify-evenly lg:items-center lg:mt-10"
+          className="flex lg:flex-row my-10 flex-col-reverse lg:justify-center lg:items-center lg:mt-10"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="100"
           data-aos-anchor-placement="top-center"
         >
           <div 
-            className="lg:w-[26rem] w-full mr-10"
+            className="lg:w-[26rem] w-full mr-10 lg:mr-20"
             data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"

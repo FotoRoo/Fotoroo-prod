@@ -22,8 +22,8 @@ const Home = () => {
       once: false,               // Animation repeats on scroll up/down
       mirror: true,              // Elements animate out when scrolled out of view
       anchorPlacement: 'top-bottom', // Animate when top of element hits bottom of viewport
-      disable: 'mobile',         // Disable on mobile for better performance (optional)
-      offset: 120                // Offset (in px) from the original trigger point
+      // disable: 'mobile',         // Disable on mobile for better performance (optional)
+      offset: 120             // Offset (in px) from the original trigger point
     });
     
     // Refresh AOS when window is resized
