@@ -37,7 +37,7 @@ const ExploreOurBooths = () => {
           Explore our Booths
         </h1>
       </div>
-      <div className=" font-rische max-w-[1600px] mx-auto w-full">
+      <div className=" font-rische max-w-[1200px] mx-auto w-full">
         {/* Mirror Booth Section */}
         <div 
           className="flex flex-col lg:flex-row my-10 lg:justify-center lg:items-center lg:mt-10"
@@ -64,7 +64,7 @@ const ExploreOurBooths = () => {
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:text-4xl xl:text-5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -107,7 +107,7 @@ const ExploreOurBooths = () => {
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:text-4xl xl:text-5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -187,7 +187,7 @@ const ExploreOurBooths = () => {
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:text-4xl xl:text-5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"
@@ -229,7 +229,7 @@ const ExploreOurBooths = () => {
             data-aos-delay="300"
           >
             <h2 
-              className="lg:pb-7 py-5 text-3xl lg:4xl xl:5xl font-semibold"
+              className="lg:pb-7 py-5 text-3xl lg:text-4xl xl:text-5xl font-semibold"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="400"

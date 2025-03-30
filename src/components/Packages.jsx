@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import Package from "../Images/Package.png";
 // import packageImage from "../Images/packageImage.png";
 import three60 from "../Images/packages/three60.jpg";
-import mirror from "../Images/packages/mirror.png";
+import mirror from "../Images/packages/mirror.jpg";
 import dslr from "../Images/packages/dslr.jpg";
 import magazine from "../Images/packages/magazine.jpg";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
