@@ -1,0 +1,10 @@
+# Allow all bots to crawl the entire site
+User-agent: *
+Disallow:
+
+# Block sensitive folders if any (optional, uncomment if needed)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Specify the location of the sitemap
+Sitemap: https://www.fotoroo.com.au/sitemap.xml
