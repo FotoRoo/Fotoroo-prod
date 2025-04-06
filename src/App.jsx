@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Layout from "./components/Layout";
 import PackageDetails from "./components/PackageDetails/PackageDetails";
@@ -21,6 +21,7 @@ export default function App() {
           <Route path="/backdrop" element={<Backdrop />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/enquire" element={<Enquire />} />
+          <Route path="/home" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
     </Suspense>
