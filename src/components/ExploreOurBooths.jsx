@@ -3,8 +3,8 @@ import { useNavigate } from "react-router";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Three60 from "../Images/three60.jpg";
-import DSLR from "../Images/DSLR Booth/DSLR.png";
-import MirrorBooth1 from "../Images/Mirror Booth/MirrorBooth1.png";
+import DSLR from "../Images/DSLR Booth/DSLR.webp";
+import MirrorBooth1 from "../Images/Mirror Booth/MirrorBooth1.webp";
 import MagazineBooth1 from "../Images/Magazine Booth/MagazineBooth1.jpg";
 // import { disableInstantTransitions } from "framer-motion";
 

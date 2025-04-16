@@ -4,7 +4,7 @@ import React from 'react';
 
 // Import all images dynamically
 const images = Object.values(
-  import.meta.glob("../Images/eventsCompleted/*.{jpg,jpeg,png,PNG}", { eager: true })
+  import.meta.glob("../Images/eventsCompleted/*.{jpg,jpeg,png,PNG,webp}", { eager: true })
 ).map((mod) => mod.default);
 
 // 🔹 Seeded PRNG (Mulberry32 Algorithm)

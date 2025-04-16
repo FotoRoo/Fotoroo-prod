@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import BookImage from "../Images/BookImage.png";
+import BookImage from "../Images/BookImage.webp";
 import { useLocation, useNavigate } from 'react-router';
 import toast, { Toaster } from 'react-hot-toast';
 import AOS from "aos";
