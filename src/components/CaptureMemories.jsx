@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
-import capture1 from "../Images/capture1.png";
-import capture2 from "../Images/capture2.png";
+import capture1 from "../Images/capture1.webp";
+import capture2 from "../Images/capture2.webp";
 
 const CaptureMemories = () => {
   const navigate = useNavigate();

@@ -18,29 +18,29 @@
   <!-- Package Details Pages -->
   <url>
     <loc>https://www.fotoroo.com.au/packages/1</loc>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://www.fotoroo.com.au/packages/2</loc>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://www.fotoroo.com.au/packages/3</loc>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://www.fotoroo.com.au/packages/4</loc>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <!-- Backdrop Page -->
   <url>
     <loc>https://www.fotoroo.com.au/backdrop</loc>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
 

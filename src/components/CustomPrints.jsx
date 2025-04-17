@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 
-import image1 from "../Images/image1.png";
+import image1 from "../Images/image1.webp";
 import image2 from "../Images/image2.png";
 import image3 from "../Images/image3.png";
 import  ImageSlider from "./ImageSlider";

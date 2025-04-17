@@ -1,4 +1,4 @@
-import Ourbomb from "../Images/OurBomb.png";
+import Ourbomb from "../Images/OurBomb.webp";
 
 const OurBomb = () => {
   return (

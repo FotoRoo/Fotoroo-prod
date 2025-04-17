@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import Sydney from "../Images/Sydney.png";
-import BluuMountains from "../Images/BluuMountains.png";
-import Wollongong from "../Images/Wollongong.png";
+import Sydney from "../Images/Sydney.webp";
+import BluuMountains from "../Images/BluuMountains.webp";
+import Wollongong from "../Images/Wollongong.webp";
 
 // const ScrollHeading = ({ children }) => {
 //   const { scrollY } = useScroll();
