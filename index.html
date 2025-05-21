@@ -5,11 +5,12 @@
   <meta charset="UTF-8" />
   <!-- <link rel="icon" type="image/png" href="/favicon.png" /> -->
   <!-- <link rel="icon" href="/favicon.ico" sizes="any"> -->
-  <link rel="icon" type="image/x-icon" href="https://www.fotoroo.com.au/favicon.ico" >
+  <link rel="icon" type="image/x-icon" href="https://www.fotoroo.com.au/favicon.ico">
   <link rel="icon" type="image/png" href="https://www.fotoroo.com.au/favicon.png">
   <link rel="apple-touch-icon" href="https://www.fotoroo.com.au/favicon.png">
 
-  <meta name="description" content="FotoRoo offers interactive photo booths for weddings, corporate events, and celebrations. Book now and make unforgettable memories." />
+  <meta name="description"
+    content="FotoRoo offers interactive photo booths for weddings, corporate events, and celebrations. Book now and make unforgettable memories." />
   <meta name="keywords"
     content="photo booth, photobooth, event photography, Sydney events, Wollongong events, Blue mountain events, wedding photo booth, corporate events, photo booth rental, DSLR booth, 360 booth, Mirror booth, Magazine booth, Backdrops, Photobooths Australia" />
   <meta name="author" content="FotoRoo" />
@@ -64,7 +65,7 @@
     }
     </script>
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -136,8 +137,26 @@
         ]
       }
     </script>
-      
-    
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '809838754355724');
+    fbq('track', 'PageView');
+  </script>
+  
+  <!-- End Meta Pixel Code -->
+
 </head>
 
 <body>
@@ -145,6 +164,8 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script type="module" src="/src/main.jsx"></script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=809838754355724&ev=PageView&noscript=1" /></noscript>
 </body>
 
 </html>
