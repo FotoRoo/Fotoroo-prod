@@ -6,7 +6,6 @@ import Three60 from "../Images/three60.jpg";
 import DSLR from "../Images/DSLR Booth/DSLR.webp";
 import MirrorBooth1 from "../Images/Mirror Booth/MirrorBooth1.webp";
 import MagazineBooth1 from "../Images/Magazine Booth/MagazineBooth1.jpg";
-// import { disableInstantTransitions } from "framer-motion";
 
 const ExploreOurBooths = () => {
   const navigate = useNavigate();
@@ -53,7 +52,7 @@ const ExploreOurBooths = () => {
             <img 
               src={MirrorBooth1} 
               alt="Mirror Booth" 
-              className="md:w-[456px]" 
+              className="md:w-[456px] rounded-2xl shadow-xl border-4 border-bgSecond/30 hover:shadow-2xl transition-all duration-300 hover:scale-105" 
               loading="lazy"
             />
           </div>
@@ -140,7 +139,7 @@ const ExploreOurBooths = () => {
             <img 
               src={DSLR} 
               alt="DSLR Booth" 
-              className="md:w-[456px]" 
+              className="md:w-[456px] rounded-2xl shadow-xl border-4 border-bgSecond/30 hover:shadow-2xl transition-all duration-300 hover:scale-105" 
               loading="lazy"
             />
           </div>
@@ -154,8 +153,7 @@ const ExploreOurBooths = () => {
           data-aos-delay="100"
           data-aos-anchor-placement="top-center"
         >
-          <div 
-            className="md:h-[600px] object-contain overflow-hidden"
+          <div
             data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="250"
@@ -174,8 +172,8 @@ const ExploreOurBooths = () => {
             </video> */}
             <img 
               src={Three60} 
-              alt="DSLR Booth" 
-              className="md:w-[456px]" 
+              alt="360 Booth" 
+              className="md:w-[456px] rounded-2xl shadow-xl border-4 border-bgSecond/30 hover:shadow-2xl transition-all duration-300 hover:scale-105" 
               loading="lazy"
             />
           </div>
@@ -262,7 +260,7 @@ const ExploreOurBooths = () => {
             <img 
               src={MagazineBooth1} 
               alt="Magazine Booth" 
-              className="md:w-[456px]" 
+              className="md:w-[456px] rounded-2xl shadow-xl border-4 border-bgSecond/30 hover:shadow-2xl transition-all duration-300 hover:scale-105" 
               loading="lazy"
             />
           </div>
