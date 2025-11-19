@@ -1,12 +1,11 @@
-
 import TestimonialCard from "./TestimonialCard";
-// import testicon from "../Images/testicon.png"
-import { useState, useEffect } from "react";
-
-
+import { reviewsData } from "./data/reviewData";
 
 const Testimonials = () => {
+  // Use the manual reviews data instead of API call
+  const reviews = reviewsData;
 
+  /* COMMENTED OUT API CALL
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
@@ -14,7 +13,6 @@ const Testimonials = () => {
       try {
         const response = await fetch("/api/get_reviews");
         const data = await response.json();
-        // console.log("Response:", response);
         console.log("Data:", data);
         
         if (response.status !== 200) {
@@ -31,11 +29,13 @@ const Testimonials = () => {
     
     fetchTestimonials();
   }, []);
+  */
 
   return (
     <section className="flex flex-col items-center mt-16">
-      {/* <h1 className="font-pinyon text-6xl mb-10">Testimonials</h1> */}
-      <h1 className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl mb-10">Testimonials</h1>
+      <h1 className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl mb-10">
+        Testimonials
+      </h1>
       <div className="relative h-80 w-full overflow-hidden">
         <div className="animate-marquee flex gap-6" style={{ width: `${reviews.length * 300 * 2}px` }}>
           {reviews.concat(reviews).map((testimonial, index) => (
