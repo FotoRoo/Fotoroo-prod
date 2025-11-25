@@ -33,7 +33,7 @@ const ExploreOurBooths = () => {
         data-aos-duration="1000"
       >
         <h1 className="md:text-[55px] lg:text-[70px] xl:text-[85px] uppercase font-dhaks text-5xl text-center mb-10">
-          Explore our Booths testing commit
+          Explore our Booths
         </h1>
       </div>
       <div className=" font-rische max-w-[1200px] mx-auto w-full">
