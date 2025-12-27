@@ -119,9 +119,9 @@ const Home = () => {
       
       {/* Testimonials - Fade in with longer duration for emphasis */}
       <div 
-        data-aos="fade-in" 
-        data-aos-delay="250"
-        data-aos-duration="1200"
+        //data-aos="fade-in" 
+        //data-aos-delay="250"
+        //data-aos-duration="1200"
         //data-aos-anchor-placement="top-center"
       >
         <Testimonials />
