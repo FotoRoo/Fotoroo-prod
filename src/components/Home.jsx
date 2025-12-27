@@ -122,7 +122,7 @@ const Home = () => {
         data-aos="fade-in" 
         data-aos-delay="250"
         data-aos-duration="1200"
-        data-aos-anchor-placement="top-center"
+        //data-aos-anchor-placement="top-center"
       >
         <Testimonials />
       </div>
