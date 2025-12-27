@@ -7,8 +7,6 @@ import DSLR from "../Images/DSLR Booth/DSLR.webp";
 import MirrorBooth1 from "../Images/Mirror Booth/MirrorBooth1.webp";
 import MagazineBooth1 from "../Images/Magazine Booth/MagazineBooth1.jpg";
 
-// fake comment
-
 const ExploreOurBooths = () => {
   const navigate = useNavigate();
   const videoRef = useRef(null);
